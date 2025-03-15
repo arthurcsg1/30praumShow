@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>30PRAUM SHOW</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div class="artistas">
+            <img class="cantor" src="matue.jpg" alt="Foto do Matuê">
+            <img class="cantor" src="wiu.jpg" alt="Foto do WIU">
+            <img class="cantor" src="teto.jpg" alt="Foto do Teto">
+        </div>
+        <h1 class="titulo">VENHA PARA O 30PRAUM SHOW!</h1>
+        <p class="paragrafo">No 30PRAUM SHOW, você vai viver uma experiência única com Matuê, WIU e Teto no palco, trazendo toda a energia e os maiores sucessos do trap nacional! Prepare-se para cantar junto, sentir a vibe e curtir um espetáculo inesquecível com performances que vão fazer a noite ser lendária. Garanta seu ingresso e faça parte desse momento épico! 🔥🔥🔥🔥🔥🔥</p>
+        <hr>
+        <h2 class="subtitulo">faça o cadastro para o 30PRAUM SHOW:</h2>
+        <section class="cadastro">
+            <h2 class="pergunta">Cidade do Show:</h2>
+            <select name="select">
+                <option value="valor1" selected>Fortaleza - CE</option>
+                <option value="valor2">Brasília - DF</option>
+                <option value="valor3">São Paulo - SP</option>
+                <option value="valor4">Rio de Janeiro - RJ</option>
+                <option value="valor5">Salvador - BA</option>
+                <option value="valor6">Belo Horizonte - MG</option>
+                <option value="valor7">Goiânia - GO</option>
+                <option value="valor8">Belém - PA</option>
+            </select><br>
+
+            <h2 class="pergunta">Serviços Extras:</h2>
+            <div class="serviços">
+                <label class="serviço"><input type="checkbox" name="extras" value="combo_alimentos"> Combo Alimentos</label><br>
+                <label class="serviço"><input type="checkbox" name="extras" value="estacionamento"> Estacionamento</label><br>
+                <label class="serviço"><input type="checkbox" name="extras" value="merchandising"> Copo Oficial 30PRAUM</label><br>
+                <label class="serviço"><input type="checkbox" name="extras" value="merchandising"> Camisa Oficial 30PRAUM</label><br>
+            </div>
+
+            <h2 class="pergunta">Setores do Show:</h2>
+            <div class="serviços">
+                <label class="serviço"><input type="radio" name="setores" value="area_vip"> Area Vip</label><br>
+                <label class="serviço"><input type="radio" name="setores" value="camarote"> Camarote</label><br>
+                <label class="serviço"><input type="radio" name="setores" value="pista"> Pista</label><br>
+            </div>
+
+
+            <h2 class="pergunta">Seu nome completo:</h2>
+            <input class="informaçao" type="text">
+
+            <h2 class="pergunta">Sua idade:</h2>
+            <input class="informaçao" type="number" min="1" max="100"><br>
+
+            <a href="index.html" class="enviar">Enviar Informações</a>
+
+            <div class="feedback_div">
+                <label class="feedback_pergunta" for="feedback">Nos dê um feedback sobre nosso site abaixo:</label><br>
+                <textarea id="feedback" name="mensagem" rows="4" cols="40"></textarea>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p class="creditos">Desenvolvido por Arthur Carvalho.</p>
+    </footer>
+</body>
+</html>
