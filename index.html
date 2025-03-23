@@ -17,9 +17,10 @@
         <p class="paragrafo">No 30PRAUM SHOW, você vai viver uma experiência única com Matuê, WIU e Teto no palco, trazendo toda a energia e os maiores sucessos do trap nacional! Prepare-se para cantar junto, sentir a vibe e curtir um espetáculo inesquecível com performances que vão fazer a noite ser lendária. Garanta seu ingresso e faça parte desse momento épico! 🔥🔥🔥🔥🔥🔥</p>
         <hr>
         <h2 class="subtitulo">faça o cadastro para o 30PRAUM SHOW:</h2>
-        <section class="cadastro">
+        
+        <form class="cadastro">
             <h2 class="pergunta">Cidade do Show:</h2>
-            <select name="select">
+            <select name="cidade">
                 <option value="valor1" selected>Fortaleza - CE</option>
                 <option value="valor2">Brasília - DF</option>
                 <option value="valor3">São Paulo - SP</option>
@@ -47,16 +48,15 @@
 
 
             <h2 class="pergunta">Seu nome completo:</h2>
-            <input class="informaçao" type="text">
+            <input class="informaçao" type="text" name="nome">
 
             <h2 class="pergunta">Sua idade:</h2>
-            <input class="informaçao" type="number" min="1" max="100"><br>
+            <input class="informaçao" type="number" min="1" max="100" name="idade"><br>
 
-            <a href="mensagem.html" class="enviar">Enviar Informações</a>
+            <input type="submit" class="enviar" value="Enviar Informações">
 
             <div class="feedback_div">
-                <label class="feedback_pergunta" for="feedback">Nos dê um feedback sobre nosso site abaixo:</label><br>
-                <textarea id="feedback" name="mensagem" rows="4" cols="40"></textarea>
+                <label class="feedback_pergunta">Nos dê um feedback sobre nosso site abaixo:<br><textarea id="feedback" name="mensagem" rows="4" cols="40"></textarea></label>
             </div>
         </section>
     </main>
